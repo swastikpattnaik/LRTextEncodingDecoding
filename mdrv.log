@@ -1,0 +1,57 @@
+Virtual User Script started at: 02-01-2021 13:11:36
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.2.0 for Windows 10; build 387 (Jun 17 2020 19:24:04)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\SWASTIK PATTNAIK\Documents\VuGen\Scripts\VugenEncodingDecoding\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Base64TextConversion.
+Source message is:
+ demande.demandeur:123456789 
+Encoded message is:
+ ZGVtYW5kZS5kZW1hbmRldXI6MTIzNDU2Nzg5 
+demande.demandeur:123456789 
+Base64TextConversion.c(21): Decoded String is demande.demandeur:123456789
+Ending action Base64TextConversion.
+Starting action HexToString.
+HexToString.c(5): tjIAKJprJ\x2FxoK2GJL\x2BZMhgUm9Wat4j16dw\x2B7o4d9Lak\x3D
+HexToString.c(9): tjIAKJprJ/xoK2GJL+ZMhgUm9Wat4j16dw+7o4d9Lak=
+Ending action HexToString.
+Starting action HTMLTextConversion.
+HTMLTextConversion.c(6): Before Conversion in HTML: &lt;Loadtester&gt;&amp;
+HTMLTextConversion.c(8): web_convert_param started  	[MsgId: MMSG-26355]
+HTMLTextConversion.c(8): web_convert_param was successful  	[MsgId: MMSG-26392]
+HTMLTextConversion.c(10): After Conversion in Plain Text: <Loadtester>&
+HTMLTextConversion.c(15): Before Conversion in Plain Text: <mytag>&
+HTMLTextConversion.c(17): web_convert_param started  	[MsgId: MMSG-26355]
+HTMLTextConversion.c(17): web_convert_param was successful  	[MsgId: MMSG-26392]
+HTMLTextConversion.c(19): After Conversion in HTML: &lt;mytag&gt;&amp;
+Ending action HTMLTextConversion.
+Starting action HTMLURLConversion.
+HTMLURLConversion.c(6): Before Conversion in HTML: &lt;Loadtester&gt;&amp;
+HTMLURLConversion.c(8): web_convert_param started  	[MsgId: MMSG-26355]
+HTMLURLConversion.c(8): web_convert_param was successful  	[MsgId: MMSG-26392]
+HTMLURLConversion.c(10): After Conversion in URL: %3CLoadtester%3E%26
+HTMLURLConversion.c(15): Before Conversion in URL: %3Cmytag%3E%26
+HTMLURLConversion.c(17): web_convert_param started  	[MsgId: MMSG-26355]
+HTMLURLConversion.c(17): web_convert_param was successful  	[MsgId: MMSG-26392]
+HTMLURLConversion.c(19): After Conversion in HTML: &lt;mytag&gt;&amp;
+Ending action HTMLURLConversion.
+Starting action URLTextConversion.
+URLTextConversion.c(6): Before Conversion in URL: %3Cmytag%3E%26
+URLTextConversion.c(8): web_convert_param started  	[MsgId: MMSG-26355]
+URLTextConversion.c(8): web_convert_param was successful  	[MsgId: MMSG-26392]
+URLTextConversion.c(10): After Conversion in Plain Text: <mytag>&
+URLTextConversion.c(15): Before Conversion in Plain Text: <Loadtester>&
+URLTextConversion.c(17): web_convert_param started  	[MsgId: MMSG-26355]
+URLTextConversion.c(17): web_convert_param was successful  	[MsgId: MMSG-26392]
+URLTextConversion.c(19): After Conversion in URL: %3CLoadtester%3E%26
+Ending action URLTextConversion.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

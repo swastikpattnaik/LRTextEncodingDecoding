@@ -1,0 +1,14 @@
+[Base64TextConversion]
+SnapshotIndex=I1_Base64TextConversion
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[URLTextConversion]
+SnapshotIndex=I1_URLTextConversion
+[HTMLTextConversion]
+SnapshotIndex=I1_HTMLTextConversion
+[HexToString]
+SnapshotIndex=I1_HexToString
+[HTMLURLConversion]
+SnapshotIndex=I1_HTMLURLConversion

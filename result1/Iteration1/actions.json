@@ -1,0 +1,27 @@
+[
+    {
+        "actionName": "Base64TextConversion",
+        "steps": [],
+        "transactions": []
+    },
+    {
+        "actionName": "HexToString",
+        "steps": [],
+        "transactions": []
+    },
+    {
+        "actionName": "HTMLTextConversion",
+        "steps": [],
+        "transactions": []
+    },
+    {
+        "actionName": "HTMLURLConversion",
+        "steps": [],
+        "transactions": []
+    },
+    {
+        "actionName": "URLTextConversion",
+        "steps": [],
+        "transactions": []
+    }
+]
